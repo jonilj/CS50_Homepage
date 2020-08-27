@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <!-- This is the header of the webpage -->
+    <head>
+        <meta charset="utf-8">
+    <!-- Links to stylesheets and title -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alata&display=swap"> 
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <title>Joni Ljungqvist - Personal website</title>
+    </head>
+    <!-- This is the body of the webpage -->
+    <body>
+        <div class ="page-container">
+            <header class="header">
+                <!-- This is the top navigation on the webpage-->
+                <nav class="topnav">
+                    <a href="index.html"><img src="images/smallogo.png" alt="Logo that says Desert Water Corp" class="logo"></a>
+                    <ul class="navlist">
+                        <li><a class ="activelink" href="contact.html">Contact</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </nav>
+                <!-- End of navigation, start of main content section -->
+                <!-- Contact form from Bootstrap -->
+                <div class="maincontent">
+                    <h1>Get in touch</h1>
+                    <article>
+                    <form action="mailto:fakeemail@fakeemail.com" method="post" enctype="text/plain" class="form-container">
+                        <div class="form-group">
+                            <label for="email-address">Email address</label>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" required/>
+                            <small id="emailHelp" class="form-text text-muted"><em>We will never share your email with anyone else.</em></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="subject" rows="13" placeholder="Write your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                    </article>
+                </div>
+                <!-- End of main content section, start of footer -->
+                <footer id="footer">
+                    <p>Copyright © 2020 Desert Water Corp</p>
+                </footer>
+            </header>
+        </div>
+    </body>
+</html>

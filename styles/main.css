@@ -1,0 +1,116 @@
+/* Styling for the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+.topnav img {
+    position: relative;
+    float: left;
+    padding-top: 7px;
+    padding-left: 20%;
+}
+.topnav ul {
+    list-style: none;
+    padding: 0px 20%;
+}
+
+/* Styling for links in navbar below */
+.activelink {
+    background-color: white;
+    color: black !important;
+}
+.navlist a, select {
+    font-family: 'Alata', sans-serif;
+    color: white;
+    float: right;
+    padding: 16px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition-timing-function: linear;
+    transition-duration: 600ms; 
+}
+.navlist a:hover {
+    background-color: white; 
+    color: black;
+} 
+
+/* Main body style and main content styles below*/
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+}
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+.maincontent {
+    padding: 30px;
+}
+article {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article small {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Header styles */
+h1  {
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/*Footer styles below*/
+footer {
+    position: absolute;
+    height: 3rem;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+footer p {
+    font-family: 'Alata', sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*Extra styling used on the contact form below*/
+label {
+    font-family: 'Alata', sans-serif;
+}
+.form-control {
+    min-height: 40px;
+    max-height: 300px;
+}
+.btn-primary {
+    background-color: black;
+}
+.btn-primary:hover {
+    background-color: white; 
+    color: black;
+    border-color: rgb(83, 80, 80);
+}
+
+/*Extra styling for gallery images*/
+#imgg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
