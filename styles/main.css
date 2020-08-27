@@ -1,33 +1,29 @@
 /* Styling for the top navigation bar */
 .topnav {
-    overflow: hidden;
     background-color: black;
+    overflow: hidden;
 }
 .topnav img {
-    position: relative;
     float: left;
-    padding-top: 7px;
     padding-left: 20%;
+    padding-top: 7px;
+    position: relative;
 }
 .topnav ul {
     list-style: none;
-    padding: 0px 20%;
+    padding-right: 20%;
 }
 
-/* Styling for links in navbar below */
-.activelink {
-    background-color: white;
-    color: black !important;
-}
+
 .navlist a, select {
-    font-family: 'Alata', sans-serif;
     color: white;
     float: right;
+    font-family: 'Alata', sans-serif;
     padding: 16px 20px;
     text-align: center;
     text-transform: uppercase;
-    transition-timing-function: linear;
     transition-duration: 600ms; 
+    transition-timing-function: linear;
 }
 .navlist a:hover {
     background-color: white; 
@@ -36,57 +32,58 @@
 
 /* Main body style and main content styles below*/
 body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
     background-color: white;
+    height: 100%;
+    margin: 0;
+    width: 100%;
 }
+
 .page-container {
-    position: relative;
     min-height: 100vh;
+    position: relative;
 }
 .maincontent {
     padding: 30px;
 }
 article {
-    width: 40%;
     margin-left: auto;
     margin-right: auto;
+    width: 40%;
 }
 
 article small {
-    text-align: center;
     padding-top: 10px;
+    text-align: center;
 }
 
 /* Header styles */
 h1  {
     font-family: 'Alata', sans-serif;
-    text-align: center;
-    padding-top: 40px;
     padding-bottom: 20px;
+    padding-top: 40px;
+    text-align: center;
 }
 
 h2, h3, h4, h5, h6 {
     font-family: 'Alata', sans-serif;
-    text-align: center;
-    padding-top: 10px;
     padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
 }
 
 /*Footer styles below*/
 footer {
-    position: absolute;
-    height: 3rem;
-    bottom: 0;
-    width: 100%;
     background-color: black;
+    bottom: 0;
+    height: 3rem;
+    position: absolute;
+    width: 100%;
 }
 footer p {
-    font-family: 'Alata', sans-serif;
     color: white;
-    text-align: center;
+    font-family: 'Alata', sans-serif;
     position: relative;
+    text-align: center;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -96,7 +93,6 @@ label {
     font-family: 'Alata', sans-serif;
 }
 .form-control {
-    min-height: 40px;
     max-height: 300px;
 }
 .btn-primary {
@@ -104,12 +100,12 @@ label {
 }
 .btn-primary:hover {
     background-color: white; 
-    color: black;
     border-color: rgb(83, 80, 80);
+    color: black;
 }
 
 /*Extra styling for gallery images*/
-#imgg {
+article img {
     display: block;
     margin-left: auto;
     margin-right: auto;

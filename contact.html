@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <!-- This is the header of the webpage -->
     <head>
         <meta charset="utf-8">
@@ -17,7 +17,7 @@
                 <nav class="topnav">
                     <a href="index.html"><img src="images/smallogo.png" alt="Logo that says Desert Water Corp" class="logo"></a>
                     <ul class="navlist">
-                        <li><a class ="activelink" href="contact.html">Contact</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="index.html">Home</a></li>
@@ -26,27 +26,28 @@
                 <!-- End of navigation, start of main content section -->
                 <!-- Contact form from Bootstrap -->
                 <div class="maincontent">
-                    <h1>Get in touch</h1>
+                    <h1>Contact</h1>
                     <article>
+                    <h2>Get in touch</h2>
                     <form action="mailto:fakeemail@fakeemail.com" method="post" enctype="text/plain" class="form-container">
                         <div class="form-group">
-                            <label for="email-address">Email address</label>
+                            <label>Email address</label>
                             <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" required/>
                             <small id="emailHelp" class="form-text text-muted"><em>We will never share your email with anyone else.</em></small>
                         </div>
                         <div class="form-group">
-                            <label for="message">Message</label>
+                            <label>Message</label>
                             <textarea class="form-control" id="subject" rows="13" placeholder="Write your message here..."></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
+                        <button type="submit" class="btn btn-primary">Submit</button>
                     </article>
                 </div>
-                <!-- End of main content section, start of footer -->
-                <footer id="footer">
-                    <p>Copyright © 2020 Desert Water Corp</p>
-                </footer>
             </header>
+            <!-- End of main content section, start of footer -->
+            <footer id="footer">
+                <p>Copyright © 2020 Desert Water Corp</p>
+            </footer>
         </div>
     </body>
 </html>

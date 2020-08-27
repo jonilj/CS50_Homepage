@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <!-- This is the header of the webpage -->
     <head>
         <meta charset="utf-8">
@@ -18,7 +18,7 @@
                     <a href="index.html"><img src="images/smallogo.png" alt="Logo that says Joni Ljungqvist" class="logo"></a>
                     <ul class="navlist">
                         <li><a href="contact.html">Contact</a></li>
-                        <li><a class="activelink" href="gallery.html">Gallery</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="index.html">Home</a></li>
                     </ul>
@@ -27,17 +27,18 @@
                 <div class="maincontent">
                     <h1>Gallery</h1>
                         <article>
+                        <h3>Click to view another photo</h3>
                             <img id="imgg" onclick="switchImage()" alt="Picture of sunny sand desert" src="images/desert1.png"> 
-                            <small class="form-text text-muted"><em>Click to go through the gallery.</em></small>
+                            <small class="form-text text-muted"><em>Photos of deserts.</em></small>
                         </article>
                 </div>
                 <!-- Calls main.js -->
                 <script src="scripts/main.js"></script>
-                <!-- End of main content section, start of footer -->
-                <footer id="footer">
-                    <p>Copyright © 2020 Desert Water Corp</p>
-                </footer>
             </header>
+            <!-- End of main content section, start of footer -->
+            <footer id="footer">
+                <p>Copyright © 2020 Desert Water Corp</p>
+            </footer>
         </div>
     </body>
 </html>
